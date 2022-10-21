@@ -76,12 +76,11 @@ const about = () => {
             </div>
           </div>
           <div className={style.team}>
-            <Image src="/pic1.jpg" height={200} width={200} />
+            <Image src="/daryle.jpg" height={200} width={200} />
 
             <div className={style.name}>Daryle Tan</div>
             <div className={style.about}>
-              This is about me blah blah blah and more blah here, creative blahs
-              only allowed or no, this is alot more difficult then I thought
+            {"I got into software development because of my interest in the cryptocurrency industry. I enjoy creating and building applications."}
             </div>
             <div className={style.socialLink}>
               <a className={style.links} href='https://github.com/daryle-tan'>

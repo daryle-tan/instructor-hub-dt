@@ -1,6 +1,6 @@
 
 import {verify} from 'jsonwebtoken';
-export const authenticated = (handler) => {
+export default function authenticate(handler) {
     return async (req, res) => {
       return new Promise ((resolve, reject) => {
         //do token/cookie checks here
@@ -17,12 +17,10 @@ export const authenticated = (handler) => {
      
   };
 
-  export const authenticate = (handler) => {
+  export function authenticated(handler) {
     return async (req, res) => {
     return handler(req, res);
   }
-
-
 }
 
 //   export const config = {

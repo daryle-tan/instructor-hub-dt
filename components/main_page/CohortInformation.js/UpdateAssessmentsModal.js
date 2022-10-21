@@ -258,7 +258,7 @@ const UpdateAssessmentsModal = ({ showUpdateAssessmentModal, setShowUpdateAssess
                 
               //   onClick={(e) => onSubmit(e)
               ) : (
-                <span>Go code with your buds, you're done</span>
+                <span>{`Go code with your buds, you're done`}</span>
               )}
               </div>
             <div>

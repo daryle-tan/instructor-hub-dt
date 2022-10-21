@@ -205,7 +205,7 @@ const CohortOverall = ({ children }) => {
                 // console.log(Object.values(groups).map())
                 Object.values(groups).map((group) => {
                   // {console.log(group)}
-                  return <div>{group.join(', ')}</div>
+                  return <div key={group[0].name}>{group.join(', ')}</div>
                 })
                 ) : ('')}
           </div>
