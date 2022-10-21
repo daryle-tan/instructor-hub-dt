@@ -111,8 +111,7 @@ const about = () => {
             <Image src="/Mike.jfif" height={200} width={200} />
             <div className={style.name}>Mike Cohen</div>
             <div className={style.about}>
-              This is about me blah blah blah and more blah here, creative blahs
-              only allowed or no, this is alot more difficult then I thought
+              {"Mike is a Full-Stack Developer and US Army Veteran. He is creatively inclined, and lives outside of the box."}
             </div>
             <div className={style.socialLink}>
               <a className={style.links} href='https://github.com/mbcohen777'>
@@ -128,8 +127,7 @@ const about = () => {
 
             <div className={style.name}>Samuel Chavez</div>
             <div className={style.about}>
-              This is about me blah blah blah and more blah here, creative blahs
-              only allowed or no, this is alot more difficult then I thought
+              {"I naturally like building things and problem solving so coding is a perfect fit. I also like being with my family and working in software is something that, lately, is able to cater to remote work."}
             </div>
             <div className={style.socialLink}>
               <a className={style.links} href='https://github.com/SamChav'>
