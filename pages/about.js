@@ -123,7 +123,7 @@ const about = () => {
             </div>
           </div>
           <div className={style.team}>
-            <Image src="/pic1.jpg" height={200} width={200} />
+            <Image src="/Sam.jpg" height={200} width={200} />
 
             <div className={style.name}>Samuel Chavez</div>
             <div className={style.about}>
