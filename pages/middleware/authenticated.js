@@ -17,11 +17,11 @@ export default function authenticate(handler) {
      
   };
 
-  export function authenticated(handler) {
-    return async (req, res) => {
-    return handler(req, res);
-  }
-}
+//   export function authenticated(handler) {
+//     return async (req, res) => {
+//     return handler(req, res);
+//   }
+// }
 
 //   export const config = {
 //     matcher: [
